@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+.header {
+    background-color: #007acc;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header h3 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+}
+
+/* Estilo de los contenedores */
+.contenedor2 {
+    background-color: #e6f2ff;
+    border: 1px solid #cce0ff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titulo2 {
+    color: #007acc;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo de las imágenes */
+.contenedor2 img {
+    width: 100px; 
+    height: auto; 
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contenedor2 img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo de los enlaces */
+.contenedor2 a {
+    text-decoration: none;
+}
+
+.contenedor2 a img {
+    vertical-align: middle;
+}
+
+/* Estilo del botón de cerrar sesión */
+.contenedor2 .logout {
+    margin-top: 20px;
+}
